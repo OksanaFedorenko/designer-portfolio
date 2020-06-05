@@ -1,0 +1,45 @@
+$white: #fff;
+$navbar-dark-active-color: #A21AF0;
+$navbar-dark-hover-color: #A21AF0;
+$navbar-dark-color: $white;
+$jumbotron-bg: transparent;
+
+$dark: #15263E; //header-bg colour
+
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "./parts/base/_fonts.scss";
+//@import "./fontawesome-all.min.css";
+//@import "./ionicons.min.scss";
+
+// Bootstrap
+//@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import '../node_modules/bootstrap/scss/utilities';
+
+//@import '../node_modules/bootstrap/scss/root';
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import '../node_modules/bootstrap/scss/transitions'; //mobile-menu toggle
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/jumbotron";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/card";
+
+
+// BASE (variables, mixins, colors, helpers, base)
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/header";
+@import "./parts/sections/intro";
+@import "./parts/sections/about";
+@import "./parts/sections/contacts";
+@import "./parts/sections/services";

@@ -1,0 +1,33 @@
+.services {
+  width: 100%;
+  min-height: 1062px;
+  padding: 90px 0 70px;
+  &__title {
+    @include title();
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    @include subtitle();
+    margin-bottom: 60px;
+  }
+  &__img {
+    width: 115px;
+    margin: 30px auto;
+  }
+  &__card {
+    min-height: 300px;
+    text-align: center;
+    margin-bottom: 70px;
+    border: none;
+    &-title {
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    &-text {
+      font-size: 15px;
+      line-height: 2;
+    }
+  }
+}

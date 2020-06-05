@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-designer",
+  "version": "1.0.0",
+  "description": "site-portfolio for web designer",
+  "main": "main.js",
+  "author": "Oksana Fedorenko <oksanafedorenko2016@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "nanobar": "^0.4.2",
+    "progressbar.js": "^1.1.0"
+  }
+}

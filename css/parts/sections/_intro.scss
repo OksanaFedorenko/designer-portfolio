@@ -1,0 +1,43 @@
+.intro {
+  height: 100vh;
+  background: url("./../img/intro-bg.jpg") center no-repeat;
+  background-size: cover;
+  color: $white;
+  &__title-1 {
+    font-size: 47px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+  &__title-2 {
+    font-size: 206px;
+    //background: linear-gradient(90deg, #7E1C9F 33%, #d310c4 36%, #B90B4E);
+    background: linear-gradient(45deg, #7E1C9F, #B90B4E);
+    color: #a21af0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: -50px;
+  }
+  &__title-3 {
+    font-size: 118px;
+    font-weight: bold;
+    letter-spacing: 4rem;
+    padding-left: 4rem;
+    margin-bottom: -10px;
+  }
+  &__title-4 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  &__btn {
+    width: 215px;
+    height: 68px;
+    //background: linear-gradient(90deg, #a21af0 33%, #d310c4 66%, #ff0072);
+    background: linear-gradient(45deg, #7E1C9F, #B90B4E);
+    color: $white;
+    padding-top: 19px;
+    font-size: 18px;
+    ;
+  }
+}
