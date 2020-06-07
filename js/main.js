@@ -16,8 +16,6 @@
       target: document.getElementById(progressId[i]),
     };
 
-    //console.log(progressId[i]);
-
     var nanobar = new Nanobar(options);
 
     // move bar
