@@ -30,6 +30,7 @@ $dark: #15263E; //header-bg colour
 @import "../node_modules/bootstrap/scss/jumbotron";
 @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/carousel";
 
 
 // BASE (variables, mixins, colors, helpers, base)
@@ -43,3 +44,4 @@ $dark: #15263E; //header-bg colour
 @import "./parts/sections/about";
 @import "./parts/sections/contacts";
 @import "./parts/sections/services";
+@import "./parts/sections/testimonials";

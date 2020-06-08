@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  min-height: 109px;
+  min-height: 100px;
   font-size: 18px;
   background-color: $dark;
   @media (max-width: 768px) {
@@ -8,13 +8,13 @@
   }
   &__inner {
     height: 100%;
-    min-height: 109px;
+    min-height: 100px;
     @media (max-width: 768px) {
       min-height: 56px;
     }
     nav {
       height: 100%;
-      min-height: 109px;
+      min-height: 100px;
       @media (max-width: 768px) {
         min-height: 56px;
       }

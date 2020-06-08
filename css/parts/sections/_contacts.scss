@@ -4,14 +4,20 @@
   padding: 101px 0;
   background-color: #DCDCDE;
   &__img {
-    padding-top: 10px;
+    margin-top: 10px;
     width: 88px;
     border-radius: 50%;
     overflow: hidden;
+    @media (max-width: 320px) {
+      width: 60px;
+      margin-top: 30px;
+    }
   }
   &__card {
     background-color: #DCDCDE;
     border: none;
-    //align-items: center;
+  }
+  @media (max-width: 320px) {
+    font-size: 14px;
   }
 }
