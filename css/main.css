@@ -7699,4 +7699,149 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.experience {
+  width: 100%;
+  min-height: 1046px;
+  height: auto;
+  background: linear-gradient(45deg, #a21af0 33%, #d310c4 66%, #ff0072);
+  padding: 110px 0;
+  color: #fff;
+}
+
+.experience__inner {
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.experience__title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #15263E;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.experience__subtitle {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 110px;
+}
+
+.experience__content {
+  width: 100%;
+}
+
+.experience__content-item {
+  margin-bottom: 90px;
+}
+
+.experience__content-item:nth-of-type(even) .experience__position-wrap::after {
+  left: 0;
+}
+
+@media (max-width: 576px) {
+  .experience__content-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.experience__position-wrap {
+  width: 35%;
+  padding: 0 50px;
+  position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .experience__position-wrap {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .experience__position-wrap {
+    width: 90%;
+  }
+}
+
+.experience__position-wrap::after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 90%;
+  background: #fff;
+  top: 5%;
+  right: 0;
+}
+
+@media (max-width: 576px) {
+  .experience__position-wrap {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+.experience__position {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .experience__position {
+    font-size: 18px;
+  }
+}
+
+.experience__period {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .experience__period {
+    font-size: 16px;
+  }
+}
+
+.experience__description {
+  width: 65%;
+  font-size: 15px;
+  line-height: 2;
+  padding: 0 35px;
+}
+
+@media (max-width: 768px) {
+  .experience__description {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .experience__description {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 0;
+    text-align: center !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */
