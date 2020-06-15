@@ -6875,7 +6875,7 @@ input[type="button"].btn-block {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
+  height: 56px;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
@@ -6883,8 +6883,8 @@ input[type="button"].btn-block {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  border-radius: 0;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -7394,19 +7394,8 @@ textarea.form-control {
 @mixin size($width, $height) {
   width: $width;
   height: $height;
-}
-
-@mixin button($color1, $color2) {
-  background-color: $color1;
-  color: $color2;
-
-  &:hover {
-    background-color: $color2;
-    color: $color1;
-  }
-}
-
-@mixin link($color1) {
+}*/
+/*@mixin link($color1) {
   color: $color1;
 
   &:hover {
@@ -7670,12 +7659,24 @@ body {
 }
 
 .intro__btn {
-  width: 215px;
-  height: 68px;
-  background: linear-gradient(45deg, #7E1C9F, #B90B4E);
+  width: 214px;
+  height: 70px;
+  background: #a21af0;
+  background: linear-gradient(45deg, #a21af0 0%, #d111c7 50%, #ff0072 100%);
+  border: none;
+  text-transform: uppercase;
   color: #fff;
-  padding-top: 19px;
   font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
 }
 
 @media (max-width: 320px) {
@@ -7685,6 +7686,11 @@ body {
     padding-top: 12px;
     font-size: 10px;
   }
+}
+
+.intro__btn:hover {
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 .about {
@@ -8429,7 +8435,7 @@ body {
   padding: 80px 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .contact__inner {
     padding: 30px;
   }
@@ -8463,7 +8469,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .contact__inputs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -8481,7 +8487,42 @@ body {
 
 .contact__message textarea {
   width: 100%;
-  min-height: 70px;
+  min-height: 110px;
   padding: 10px;
+}
+
+.contact__btn {
+  width: 214px;
+  height: 70px;
+  background: #a21af0;
+  background: linear-gradient(45deg, #a21af0 0%, #d111c7 50%, #ff0072 100%);
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 320px) {
+  .contact__btn {
+    width: 150px;
+    height: 40px;
+    padding-top: 12px;
+    font-size: 10px;
+  }
+}
+
+.contact__btn:hover {
+  border: 1px solid #fff;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

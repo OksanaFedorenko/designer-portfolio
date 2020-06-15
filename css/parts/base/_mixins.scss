@@ -12,23 +12,40 @@
   text-align: center;
 }
 
+@mixin gradient-button() {
+  width: 214px;
+  height: 70px;
+  background: rgb(162, 26, 240);
+  background: linear-gradient(45deg, rgba(162, 26, 240, 1) 0%, rgba(209, 17, 199, 1) 50%, rgba(255, 0, 114, 1) 100%);
+  border: none;
+  text-transform: uppercase;
+  color: $white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  @media (max-width: 320px) {
+    width: 150px;
+    height: 40px;
+    padding-top: 12px;
+    font-size: 10px;
+  }
+
+  &:hover {
+    border: 1px solid $white;
+    color: $white;
+  }
+}
+
 /*
 @mixin size($width, $height) {
   width: $width;
   height: $height;
-}
+}*/
 
-@mixin button($color1, $color2) {
-  background-color: $color1;
-  color: $color2;
-
-  &:hover {
-    background-color: $color2;
-    color: $color1;
-  }
-}
-
-@mixin link($color1) {
+/*@mixin link($color1) {
   color: $color1;
 
   &:hover {

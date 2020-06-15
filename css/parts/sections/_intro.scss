@@ -81,18 +81,6 @@
     }
   }
   &__btn {
-    width: 215px;
-    height: 68px;
-    //background: linear-gradient(90deg, #a21af0 33%, #d310c4 66%, #ff0072);
-    background: linear-gradient(45deg, #7E1C9F, #B90B4E);
-    color: $white;
-    padding-top: 19px;
-    font-size: 18px;
-    @media (max-width: 320px) {
-      width: 150px;
-      height: 40px;
-      padding-top: 12px;
-      font-size: 10px;
-    }
+    @include gradient-button();
   }
 }
