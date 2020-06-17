@@ -30,4 +30,10 @@
         font-size: 15px;
         line-height: 2;
     }
+    &__link {
+        color: $black;
+        &:hover {
+         color: $violet;
+        }
+    }
 }

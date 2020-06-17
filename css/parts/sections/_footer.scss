@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  min-height: 176px;
+  background-color: $white;
+  padding: 67px 0;
+  &__copyright {
+    text-align: center;
+  }
+}

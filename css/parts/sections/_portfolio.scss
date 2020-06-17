@@ -21,9 +21,10 @@
 
   }
   &__filter-controls {
-    width: 20%;
+    //width: 30%;
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
     @media (max-width: 768px) {
       margin-right: 10px;
     }
@@ -43,16 +44,22 @@
     }
   }
   &__filter-item.active {
-    color: red;
+    color: $violet;
   }
   &__content {
-    width: 80%;
-    display: flex;
+    width: 70%;
+    //display: flex;
     //justify-content: space-between;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
+    div {
+      width: 45%;
+      height: auto;
+    }
   }
   &__link {
-    width: 45%;
+    //width: 45%;
+    width: 465px;
+    height: 349px;
     //height: 350px;
     height: auto;
     overflow: hidden;
@@ -67,9 +74,10 @@
       margin-right: 0;
     }
     img {
-      width: 100%;
+      //width: 100%;
+      width: 465px;
       height: auto;
-      object-fit: cover;
+      object-fit: contain;
     }
   }
 }

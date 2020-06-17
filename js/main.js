@@ -35,10 +35,10 @@ var nanobar = new Nanobar( options );
 // move bar
 nanobar.go( 30 ); // size bar 30%*/
 
+var filterizd = $('.portfolio__content').filterizr({});
 
-var filterizd = $(".portfolio__content").filterizr({
-  //options object
-});
+
+
 
 $(".portfolio__filter-controls li").click(function () {
   $(".portfolio__filter-controls li").removeClass("active");

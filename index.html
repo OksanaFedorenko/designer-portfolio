@@ -276,32 +276,32 @@
     <div class="portfolio__inner">
       <div class="portfolio__filter-panel">
         <ul class="portfolio__filter-controls">
-          <li class="portfolio__filter-item active" data-filter="All active">All</li>
+          <li class="portfolio__filter-item active" data-filter="All">All</li>
           <li class="portfolio__filter-item" data-filter="1">PSD Design</li>
           <li class="portfolio__filter-item" data-filter="2">Presentation</li>
           <li class="portfolio__filter-item" data-filter="3">Work ideas</li>
-          <li class="portfolio__filter-item" data-filter="4">Mockups</li>
-          <li class="portfolio__filter-item" data-filter="4">Logo</li>
+          <li class="portfolio__filter-item" data-filter="5">Mockups</li>
+          <li class="portfolio__filter-item" data-filter="2">Logo</li>
           <li class="portfolio__filter-item" data-filter="4">Icons</li>
         </ul>
       </div>
-      <div class="portfolio__content">
-        <a class="portfolio__link" href="https://www.behance.net/" data-category="1, All" target="_blank">
+      <div class="portfolio__content row">
+        <a class="portfolio__link filtr-item col-lg-6 col-xl-12" href="https://www.behance.net/" data-category="1, All" target="_blank">
           <img class="example-image" src="img/portfolio/portfolio-1.jpg" alt="psd" />
         </a>
-        <a class="portfolio__link" href="https://www.behance.net/" data-category="4, All" target="_blank">
+        <a class="portfolio__link filtr-item col-lg-6 col-xl-12" href="https://www.behance.net/" data-category="6, All" target="_blank">
           <img class="example-image" src="img/portfolio/portfolio-2.jpg" alt="psd" />
         </a>
-        <a class="portfolio__link" href="https://www.behance.net/" data-category="1, All" target="_blank">
+        <a class="portfolio__link filtr-item col-lg-6 col-xl-12" href="https://www.behance.net/" data-category="5, All" target="_blank">
           <img class="example-image" src="img/portfolio/portfolio-3.jpg" alt="psd" />
         </a>
-        <a class="portfolio__link" href="https://www.behance.net/" data-category="2, All" target="_blank">
+        <a class="portfolio__link filtr-item col-lg-6 col-xl-12" href="https://www.behance.net/" data-category="2, All" target="_blank">
           <img class="example-image" src="img/portfolio/portfolio-4.jpg" alt="psd" />
         </a>
-        <a class="portfolio__link" href="https://www.behance.net/" data-category="3, All" target="_blank">
+        <a class="portfolio__link filtr-item col-lg-6 col-xl-12" href="https://www.behance.net/" data-category="3, All" target="_blank">
           <img class="example-image" src="img/portfolio/portfolio-5.jpg" alt="psd" />
         </a>
-        <a class="portfolio__link" href="https://www.behance.net/" data-category="3, All" target="_blank">
+        <a class="portfolio__link filtr-item col-lg-6 col-xl-12" href="https://www.behance.net/" data-category="4, All" target="_blank">
           <img class="example-image" src="img/portfolio/portfolio-6.jpg" alt="psd" />
         </a>
       </div>
@@ -376,7 +376,9 @@
           <div class="blog__article card">
             <img src="img/blog/blog-1.png" class="card-img-top" alt="photo">
               <h6 class="card-subtitle mb-2 text-muted blog__category">Personal Adviser</h6>
-              <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
+              <a href="#" class="blog__link">
+                <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
+              </a>
               <p class="card-text blog__text">Lorem ipsum dolor sit amet, consectetur adipielit. 
               Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
               consectetur adiic Sunt sed ad posimus magnam maores.</p>
@@ -387,7 +389,9 @@
           <div class="blog__article card">
             <img src="img/blog/blog-2.png" class="card-img-top" alt="photo">
               <h6 class="card-subtitle mb-2 text-muted blog__category">Personal Adviser</h6>
-              <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
+              <a href="#" class="blog__link">
+                <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
+              </a>
               <p class="card-text blog__text">Lorem ipsum dolor sit amet, consectetur adipielit. 
               Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
               consectetur adiic Sunt sed ad posimus magnam maores.</p>
@@ -398,7 +402,9 @@
           <div class="blog__article card">
             <img src="img/blog/blog-3.png" class="card-img-top" alt="photo">
               <h6 class="card-subtitle mb-2 text-muted blog__category">Personal Adviser</h6>
-              <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
+              <a href="#" class="blog__link">
+                <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
+              </a>
               <p class="card-text blog__text">Lorem ipsum dolor sit amet, consectetur adipielit. 
               Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
               consectetur adiic Sunt sed ad posimus magnam maores.</p>
@@ -441,11 +447,19 @@
     </div>
   </section>
 
+  <!--FOOTER-->
+  <footer class="footer">
+    <p class="footer__copyright">Copyright 2020 by psd.in.ua All Rights Reserved.
+</p>
+  </footer>
+  <!--/FOOTER-->
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="js/nanobar.min.js"></script>
-  <script src="js/filterizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.filterizr.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
