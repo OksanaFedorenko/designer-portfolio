@@ -22,23 +22,9 @@
     nanobar.go(percentage[i]);
   };
 
-
-
-/*var options = {
-  classname: 'my-class',
-  id: 'my-id',
-  target: document.getElementById('nanoprogress1')
-};
-
-var nanobar = new Nanobar( options );
-
-// move bar
-nanobar.go( 30 ); // size bar 30%*/
+//Filter
 
 var filterizd = $('.portfolio__content').filterizr({});
-
-
-
 
 $(".portfolio__filter-controls li").click(function () {
   $(".portfolio__filter-controls li").removeClass("active");
