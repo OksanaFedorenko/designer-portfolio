@@ -1,11 +1,13 @@
 .intro {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   min-width: 100%;
   background: url("./../img/intro-bg.jpg") center no-repeat;
   background-size: cover;
   color: $white;
   @media (max-width: 1024px) {
-    height: 100vh;
+    //height: 100vh;
+    height: auto;
     padding-top: 200px;
   }
   @media (max-width: 991px) {
@@ -16,12 +18,16 @@
     margin-top: 20px;
     margin-bottom: -30px;
     @media (max-width: 992px) {
-      font-size: 38px;
+      font-size: 42px;
       margin-bottom: -10px;
     }
     @media (max-width: 768px) {
       margin-top: 70px;
-      font-size: 30px;
+      font-size: 36px;
+    }
+    @media (max-width: 576px) {
+      margin-top: 50px;
+      font-size: 36px;
     }
     @media (max-width: 320px) {
       font-size: 20px;
@@ -30,7 +36,8 @@
   }
   &__title-2 {
     font-size: 206px;
-    background: linear-gradient(45deg, #7E1C9F, #B90B4E);
+    //background: linear-gradient(45deg, #7E1C9F, #B90B4E);
+    background: linear-gradient(90deg, #a21af0 33%, #d310c4 66%, #ff0072);
     color: #a21af0;
     background-clip: text;
     -webkit-background-clip: text;
@@ -42,11 +49,14 @@
       margin-bottom: -20px;
     }
     @media (max-width: 768px) {
-      font-size: 90px;
+      font-size: 140px;
       margin-bottom: -10px;
     }
+    @media (max-width: 576px) {
+      font-size: 100px;
+    }
     @media (max-width: 320px) {
-      font-size: 50px;
+      font-size: 80px;
     }
   }
   &__title-3 {
@@ -56,16 +66,19 @@
     padding-left: 4rem;
     margin-bottom: -10px;
     @media (max-width: 992px) {
-      font-size: 54px;
+      font-size: 90px;
       margin-bottom: 10px;
     }
     @media (max-width: 768px) {
-      font-size: 40px;
+      font-size: 80px;
       letter-spacing: 2rem;
       padding-left: 2rem;
     }
+    @media (max-width: 576px) {
+      font-size: 46px;
+    }
     @media (max-width: 320px) {
-      font-size: 18px;
+      font-size: 48px;
       letter-spacing: 1rem;
       padding-left: 1rem;
     }
@@ -77,7 +90,10 @@
       font-size: 20px;
     }
     @media (max-width: 320px) {
-      font-size: 14px;
+      font-size: 18px;
+    }
+    @media (max-width: 320px) {
+      font-size: 16px;
     }
   }
   &__btn {

@@ -11,11 +11,6 @@
   &__title {
     @include title();
     color: $white;
-    margin-bottom: 80px;
-    @media (max-width: 991px) {
-      font-size: 30px;
-      margin-bottom: 40px;
-    }
   }
   &__item {
     width: 100%;

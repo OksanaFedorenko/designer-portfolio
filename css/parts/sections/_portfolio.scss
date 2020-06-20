@@ -1,10 +1,12 @@
 .portfolio {
   width: 100%;
   height: auto;
-  padding: 90px 15px;
+  padding: 90px 0;
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
   &__title {
     @include title();
-    margin-bottom: 40px;
   }
   &__subtitle {
     @include subtitle();
@@ -47,6 +49,8 @@
   }
   &__content {
     width: 70%;
+    margin-left: 0;
+    padding: 15px !important;
   }
   &__item {
     padding-bottom: 30px;

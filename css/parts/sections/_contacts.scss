@@ -3,6 +3,9 @@
   min-height: 307px;
   padding: 101px 0;
   background-color: #DCDCDE;
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
   &__img {
     margin-top: 10px;
     width: 88px;
@@ -16,6 +19,9 @@
   &__card {
     background-color: #DCDCDE;
     border: none;
+    @media (max-width: 768px) {
+      margin: 0 auto;
+    }
   }
   @media (max-width: 320px) {
     font-size: 14px;
