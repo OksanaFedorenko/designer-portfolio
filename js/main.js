@@ -1,18 +1,12 @@
   // Progress bar
   
-  var progressId = [
-    "nanoprogress1",
-    "nanoprogress2",
-    "nanoprogress3",
-    "nanoprogress4",
-  ];
+  var progressId = ["progress-80", "progress-65", "progress-50", "progress-30"];
 
   var percentage = [80, 65, 50, 30];
 
   for (let i=0; i < progressId.length; i++) {
     var options = {
-      classname: "my-class",
-      id: "my-id",
+      classname: "nanoprogress",
       target: document.getElementById(progressId[i]),
     };
 
@@ -32,8 +26,4 @@ $(".portfolio__filter-controls li").click(function () {
 });
 
 
-//menu
- let navLink = [...document.querySelectorAll(".nav__menu-item")];
-
- console.log(navLink);
 

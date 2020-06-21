@@ -1,24 +1,13 @@
-$white: #fff;
-$navbar-dark-active-color: #A21AF0;
-$navbar-dark-hover-color: #A21AF0;
-$navbar-dark-color: $white;
-$jumbotron-bg: transparent;
-$input-border-radius: 0;
-//$input-height-inner: 56px;
-$input-height: 56px;
-//$input-border-color: none;
-//$input-height-border: none;
-$input-border-color: transparent;
 
-$dark: #15263E; //header-bg colour
 
 // RESET
 @import "./parts/base/_reset.scss";
 
 // FONTS
 @import "./parts/base/_fonts.scss";
-//@import "./fontawesome-all.min.css";
-//@import "./ionicons.min.scss";
+
+//Bootstrap custom
+@import "./parts/base/custom";
 
 // Bootstrap
 //@import "../node_modules/bootstrap/scss/bootstrap.scss";

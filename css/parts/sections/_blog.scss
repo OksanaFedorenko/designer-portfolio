@@ -1,42 +1,56 @@
+/*BLOG 
+===================*/
+
 .blog {
     width: 100%;
     height: auto;
     min-height: 860px;
     padding: 90px 0;
+
     @media (max-width: 768px) {
         padding: 60px 0;
     }
+
     &__title {
         @include title();
     }
+
     &__subtitle {
         @include subtitle();
         margin-bottom: 110px;
+
         @media (max-width: 768px) {
             margin-bottom: 60px;
         }
     }
+
     &__cards {
-      justify-content: space-around;
+        justify-content: space-around;
     }
+
     &__article {
         border: none;
         margin-bottom: 30px;
+
         img {
             margin-bottom: 30px;
         }
     }
+
     &__article-title {
         font-weight: bold;
     }
+
     &__text {
         font-size: 15px;
         line-height: 2;
     }
+
     &__link {
         color: $black;
+
         &:hover {
-         color: $violet;
+            color: $violet;
         }
     }
 }

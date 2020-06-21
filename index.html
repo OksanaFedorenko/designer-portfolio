@@ -1,101 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
   <title>Portfolio</title>
 </head>
+
 <body>
+
   <!--HEADER-->
   <header class="header text-uppercase">
     <div class="container header__inner">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav w-100 justify-content-between nav__menu">
-          
-          <li class="nav-item active nav__menu-item">
-            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-          </li>
-          <li>-</li>
-          <li class="nav-item nav__menu-item">
-            <a class="nav-link" href="#">Our services</a>
-          </li>
-          <li>-</li>
-          <li class="nav-item nav__menu-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li>-</li>
-          <li class="nav-item nav__menu-item">
-            <a class="nav-link" href="#">Experience</a>
-          </li>
-          <li>-</li>
-          <li class="nav-item nav__menu-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li>-</li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 justify-content-between nav__menu">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="dash">-</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our services</a>
+            </li>
+            <li class="dash">-</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="dash">-</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience</a>
+            </li>
+            <li class="dash">-</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="dash">-</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
-      <!--/HEADER-->
+  <!--/HEADER-->
 
-      <!--INTRO-->
+  <!--INTRO-->
   <section class="intro text-uppercase">
-
     <div class="jumbotron text-center">
       <p class="intro__title-1">Hello, I am</p>
       <p class="intro__title-2">John</p>
       <p class="intro__title-3">Smith</p>
-      <p class="intro__title-4">I have more then 10 years of Experience </p>
+      <p class="intro__title-4">I have more then 10 years of Experience</p>
       <a class="btn btn-lg intro__btn" href="#" role="button">Download CV</a>
     </div>
-
   </section>
   <!--/INTRO-->
 
-  <!--ABOUT--> 
+  <!--ABOUT-->
   <section class="about">
-
-      <div class="about__inner">
-
-        <div class="about__text">
-          <p class="about__title">John Smith</p>
-          <p class="about__position text-uppercase">Web designer</p>
-          <p class="about__description">Lorem ipsum dolor sit amet,   consectetur adipielit. Sunt sed ad possimus magm
-            maiores.Ipa Lorem ipsum dolor sit amet, consectetur   adiic Sunt sed ad posimus magnam maores. Ipsam as velt
-            blanditiis debitis consequuntur mollita umenda nam   obcaecati illo!</p>
-        </div>
-
-        <div class="about__img">
-          <img src="img/about.jpg" alt="photo">
-        </div>
-
-        <div class="about__progress">
-
-          <p class="about__progress-title">Design ( 80% )</p>
-          <div class="nanoprogress" id="nanoprogress1"></div>
-          <p class="about__progress-title">Photography ( 65% )</p>
-          <div class="nanoprogress" id="nanoprogress2"></div>
-          <p class="about__progress-title">Marketing ( 50% )</p>
-          <div class="nanoprogress" id="nanoprogress3"></div>
-          <p class="about__progress-title">Branding ( 30% )</p>
-          <div class="nanoprogress" id="nanoprogress4"></div>
-        </div>
-        
+    <div class="about__inner">
+      <div class="about__text">
+        <p class="about__title">John Smith</p>
+        <p class="about__position text-uppercase">Web designer</p>
+        <p class="about__description">
+          Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+          possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur
+          adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis
+          debitis consequuntur mollita umenda nam obcaecati illo!
+        </p>
       </div>
 
+      <div class="about__img">
+        <img src="img/about.jpg" alt="photo" />
+      </div>
+
+      <div class="about__progress">
+        <p class="about__progress-title">Design ( 80% )</p>
+        <div id="progress-80"></div>
+        <p class="about__progress-title">Photography ( 65% )</p>
+        <div id="progress-65"></div>
+        <p class="about__progress-title">Marketing ( 50% )</p>
+        <div id="progress-50"></div>
+        <p class="about__progress-title">Branding ( 30% )</p>
+        <div id="progress-30"></div>
+      </div>
+    </div>
   </section>
   <!--/ABOUT-->
 
@@ -103,14 +100,15 @@
   <section class="contacts">
     <div class="container">
       <div class="row">
-
         <div class="card mb-3 col-xl-4 col-lg-6 col-md-7 contacts__card">
           <div class="row no-gutters">
             <div>
-              <img src="img/contacts/contacts-1.jpg" class="card-img contacts__img" alt="icon">
+              <img src="img/contacts/contacts-1.jpg" class="card-img contacts__img" alt="icon" />
             </div>
             <div class="card-body">
-              <h5 class="card-title text-uppercase font-weight-bold contacts__card-title">Phone number</h5>
+              <h5 class="card-title text-uppercase font-weight-bold contacts__card-title">
+                Phone number
+              </h5>
               <p class="card-text">+1 234 456-789</p>
               <p class="card-text">+123-456-7890</p>
             </div>
@@ -120,29 +118,32 @@
         <div class="card mb-3 col-xl-4 col-lg-6 col-md-7 contacts__card">
           <div class="row no-gutters">
             <div>
-              <img src="img/contacts/contacts-2.jpg" class="card-img contacts__img" alt="icon">
+              <img src="img/contacts/contacts-2.jpg" class="card-img contacts__img" alt="icon" />
             </div>
             <div class="card-body">
-              <h5 class="card-title text-uppercase font-weight-bold contacts__card-title">Address</h5>
-              <p class="card-text">8, Belgium, Brussels, </p>
+              <h5 class="card-title text-uppercase font-weight-bold contacts__card-title">
+                Address
+              </h5>
+              <p class="card-text">8, Belgium, Brussels,</p>
               <p class="card-text">Liutte 207 New York, USA</p>
             </div>
           </div>
         </div>
 
-          <div class="card mb-3 col-xl-4 col-lg-6 col-md-7 contacts__card">
-            <div class="row no-gutters">
-              <div class="">
-                <img src="img/contacts/contacts-3.jpg" class="card-img contacts__img" alt="icon">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-uppercase font-weight-bold contacts__card-title">Email Address</h5>
-                <p class="card-text">johnsmith@company.com</p>
-                <p class="card-text">youoffice@company.com</p>
-              </div>
+        <div class="card mb-3 col-xl-4 col-lg-6 col-md-7 contacts__card">
+          <div class="row no-gutters">
+            <div class="">
+              <img src="img/contacts/contacts-3.jpg" class="card-img contacts__img" alt="icon" />
             </div>
-          </div> 
-
+            <div class="card-body">
+              <h5 class="card-title text-uppercase font-weight-bold contacts__card-title">
+                Email Address
+              </h5>
+              <p class="card-text">johnsmith@company.com</p>
+              <p class="card-text">youoffice@company.com</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -152,62 +153,91 @@
   <section class="services">
     <div class="container">
       <h2 class="services__title">Our services</h2>
-      <p class="services__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p class="services__subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </p>
       <div class="row">
-
         <div class="card col-md-4 col-sm-6 col-12 services__card">
-          <img src="img/services/services1.jpg" class="card-img-top services__img" alt="icon">
+          <img src="img/services/services1.jpg" class="card-img-top services__img" alt="icon" />
           <div class="card-body p-0">
-            <h3 class="card-title text-uppercase services__card-title">Best Service</h3>
-            <p class="card-text services__card-text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa
-              dolor sit ile magnam maores.</p>
+            <h3 class="card-title text-uppercase services__card-title">
+              Best Service
+            </h3>
+            <p class="card-text services__card-text">
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores. Ipsa dolor sit ile magnam maores.
+            </p>
           </div>
         </div>
 
         <div class="card col-md-4 col-sm-6 col-12 services__card">
-          <img src="img/services/services2.jpg" class="card-img-top services__img" alt="icon">
+          <img src="img/services/services2.jpg" class="card-img-top services__img" alt="icon" />
           <div class="card-body p-0">
-            <h3 class="card-title text-uppercase services__card-title">Best Service</h3>
-            <p class="card-text services__card-text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa
-              dolor sit ile magnam maores.</p>
+            <h3 class="card-title text-uppercase services__card-title">
+              Best Service
+            </h3>
+            <p class="card-text services__card-text">
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores. Ipsa dolor sit ile magnam maores.
+            </p>
           </div>
         </div>
 
         <div class="card col-md-4 col-sm-6 col-12 services__card">
-          <img src="img/services/services3.jpg" class="card-img-top services__img" alt="icon">
+          <img src="img/services/services3.jpg" class="card-img-top services__img" alt="icon" />
           <div class="card-body p-0">
-            <h3 class="card-title text-uppercase services__card-title">Best Service</h3>
-            <p class="card-text services__card-text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa
-              dolor sit ile magnam maores.</p>
-          </div>
-        </div>
-        
-        <div class="card col-md-4 col-sm-6 col-12 services__card">
-          <img src="img/services/services4.jpg" class="card-img-top services__img" alt="icon">
-          <div class="card-body p-0">
-            <h3 class="card-title text-uppercase services__card-title">Best Service</h3>
-            <p class="card-text services__card-text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</p>
+            <h3 class="card-title text-uppercase services__card-title">
+              Best Service
+            </h3>
+            <p class="card-text services__card-text">
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores. Ipsa dolor sit ile magnam maores.
+            </p>
           </div>
         </div>
 
         <div class="card col-md-4 col-sm-6 col-12 services__card">
-          <img src="img/services/services5.jpg" class="card-img-top services__img" alt="icon">
+          <img src="img/services/services4.jpg" class="card-img-top services__img" alt="icon" />
           <div class="card-body p-0">
-            <h3 class="card-title text-uppercase services__card-title">Best Service</h3>
-            <p class="card-text services__card-text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</p>
+            <h3 class="card-title text-uppercase services__card-title">
+              Best Service
+            </h3>
+            <p class="card-text services__card-text">
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores. Ipsa dolor sit ile magnam maores.
+            </p>
           </div>
         </div>
 
         <div class="card col-md-4 col-sm-6 col-12 services__card">
-          <img src="img/services/services6.jpg" class="card-img-top services__img" alt="icon">
+          <img src="img/services/services5.jpg" class="card-img-top services__img" alt="icon" />
           <div class="card-body p-0">
-            <h3 class="card-title text-uppercase services__card-title">Best Service</h3>
-            <p class="card-text services__card-text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</p>
+            <h3 class="card-title text-uppercase services__card-title">
+              Best Service
+            </h3>
+            <p class="card-text services__card-text">
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores. Ipsa dolor sit ile magnam maores.
+            </p>
           </div>
         </div>
 
-      </div><!--.row-->
-    </div><!--.container-->
+        <div class="card col-md-4 col-sm-6 col-12 services__card">
+          <img src="img/services/services6.jpg" class="card-img-top services__img" alt="icon" />
+          <div class="card-body p-0">
+            <h3 class="card-title text-uppercase services__card-title">
+              Best Service
+            </h3>
+            <p class="card-text services__card-text">
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores. Ipsa dolor sit ile magnam maores.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--.row-->
+    </div>
+    <!--.container-->
   </section>
   <!--/SERVICES-->
 
@@ -220,12 +250,15 @@
 
           <div class="carousel-item active">
             <div class="testimonials__item">
-              <div class="testimonials__text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm
-                maiores. Ipsa dolor sit ile magnam maores.Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad
-                possimus magm maiores. Ipsa dolor sit ile magnam maores.</div>
+              <div class="testimonials__text">
+                Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad
+                possimus magm maiores. Ipsa dolor sit ile magnam maores.Lorem
+                ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+                magm maiores. Ipsa dolor sit ile magnam maores.
+              </div>
               <div class="testimonials__author">
                 <div class="testimonials__photo">
-                  <img src="img/testimonials-photo.jpg" alt="photo">
+                  <img src="img/testimonials-photo.jpg" alt="photo" />
                 </div>
                 <div class="testimonials__person">
                   <div class="testimonials__name">Jon Brown</div>
@@ -237,12 +270,15 @@
 
           <div class="carousel-item">
             <div class="testimonials__item">
-              <div class="testimonials__text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm
-                maiores. Ipsa dolor sit ile magnam maores.Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad
-                possimus magm maiores. Ipsa dolor sit ile magnam maores.</div>
+              <div class="testimonials__text">
+                Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad
+                possimus magm maiores. Ipsa dolor sit ile magnam maores.Lorem
+                ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+                magm maiores. Ipsa dolor sit ile magnam maores.
+              </div>
               <div class="testimonials__author">
                 <div class="testimonials__photo">
-                  <img src="img/testimonials-photo.jpg" alt="photo">
+                  <img src="img/testimonials-photo.jpg" alt="photo" />
                 </div>
                 <div class="testimonials__person">
                   <div class="testimonials__name">Jon Brown</div>
@@ -254,12 +290,15 @@
 
           <div class="carousel-item">
             <div class="testimonials__item">
-              <div class="testimonials__text">Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm
-                maiores. Ipsa dolor sit ile magnam maores.Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad
-                possimus magm maiores. Ipsa dolor sit ile magnam maores.</div>
+              <div class="testimonials__text">
+                Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad
+                possimus magm maiores. Ipsa dolor sit ile magnam maores.Lorem
+                ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+                magm maiores. Ipsa dolor sit ile magnam maores.
+              </div>
               <div class="testimonials__author">
                 <div class="testimonials__photo">
-                  <img src="img/testimonials-photo.jpg" alt="photo">
+                  <img src="img/testimonials-photo.jpg" alt="photo" />
                 </div>
                 <div class="testimonials__person">
                   <div class="testimonials__name">Jon Brown</div>
@@ -278,7 +317,9 @@
   <!--PORTFOLIO-->
   <section class="portfolio">
     <h2 class="portfolio__title">Portfolio</h2>
-    <p class="portfolio__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    <p class="portfolio__subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    </p>
     <div class="portfolio__inner container">
       <div class="portfolio__filter-panel">
         <ul class="portfolio__filter-controls">
@@ -308,21 +349,20 @@
           </a>
         </div>
         <div class="filtr-item col-lg-6 col-md-6 portfolio__item" data-category="4, All">
-          <a class="portfolio__link" href="https://www.behance.net/"  target="_blank">
+          <a class="portfolio__link" href="https://www.behance.net/" target="_blank">
             <img class="example-image" src="img/portfolio/portfolio-4.jpg" alt="psd" />
           </a>
         </div>
         <div class="filtr-item col-lg-6 col-md-6 portfolio__item" data-category="5, All">
-          <a class="portfolio__link" href="https://www.behance.net/"  target="_blank">
+          <a class="portfolio__link" href="https://www.behance.net/" target="_blank">
             <img class="example-image" src="img/portfolio/portfolio-5.jpg" alt="psd" />
           </a>
         </div>
         <div class="filtr-item col-lg-6 col-md-6 portfolio__item" data-category="1, All">
-          <a class="portfolio__link" href="https://www.behance.net/"  target="_blank">
+          <a class="portfolio__link" href="https://www.behance.net/" target="_blank">
             <img class="example-image" src="img/portfolio/portfolio-6.jpg" alt="psd" />
           </a>
         </div>
-        
       </div>
     </div>
   </section>
@@ -333,52 +373,61 @@
   <section class="experience">
     <div class="experience__inner">
       <h2 class="experience__title">Experience</h2>
-      <p class="experience__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p class="experience__subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </p>
       <div class="experience__content">
-
         <div class="experience__content-item d-flex">
           <div class="experience__position-wrap d-flex flex-column align-items-center">
             <p class="experience__position text-center">Personal Adviser</p>
             <p class="experience__period text-center">2015 - 2016</p>
           </div>
-          <p class="experience__description text-left">Lorem ipsum dolor sit amet, consectetur   adipielit. Sunt sed ad possimus magm
-            maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad   posimus magnam maores. Ipsam as velt
-            blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</p>
+          <p class="experience__description text-left">
+            Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+            possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur
+            adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis
+            debitis consequuntur mollita umenda nam obcaecati illo!
+          </p>
         </div>
 
         <div class="experience__content-item d-flex">
-          <p class="experience__description text-right">Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad possimus
-            magm
-            maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad posimus magnam maores. Ipsam as velt
-            blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</p>
-            <div class="experience__position-wrap d-flex flex-column align-items-center">
-              <p class="experience__position text-center">Personal Adviser</p>
-              <p class="experience__period text-center">2015 - 2016</p>
-            </div>
-        </div>
-
-        <div class="experience__content-item d-flex">
-          <div class="experience__position-wrap d-flex flex-column align-items-center">
-            <p class="experience__position text-center">Personal Adviser</p>
-            <p class="experience__period text-center">2015 - 2016</p>
-          </div>
-          <p class="experience__description text-left">Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad possimus
-            magm
-            maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad posimus magnam maores. Ipsam as velt
-            blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</p>
-        </div>
-        
-        <div class="experience__content-item d-flex">
-          <p class="experience__description text-right">Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad possimus
-            magm
-            maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad posimus magnam maores. Ipsam as velt
-            blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</p>
+          <p class="experience__description text-right">
+            Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+            possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur
+            adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis
+            debitis consequuntur mollita umenda nam obcaecati illo!
+          </p>
           <div class="experience__position-wrap d-flex flex-column align-items-center">
             <p class="experience__position text-center">Personal Adviser</p>
             <p class="experience__period text-center">2015 - 2016</p>
           </div>
         </div>
 
+        <div class="experience__content-item d-flex">
+          <div class="experience__position-wrap d-flex flex-column align-items-center">
+            <p class="experience__position text-center">Personal Adviser</p>
+            <p class="experience__period text-center">2015 - 2016</p>
+          </div>
+          <p class="experience__description text-left">
+            Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+            possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur
+            adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis
+            debitis consequuntur mollita umenda nam obcaecati illo!
+          </p>
+        </div>
+
+        <div class="experience__content-item d-flex">
+          <p class="experience__description text-right">
+            Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+            possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur
+            adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis
+            debitis consequuntur mollita umenda nam obcaecati illo!
+          </p>
+          <div class="experience__position-wrap d-flex flex-column align-items-center">
+            <p class="experience__position text-center">Personal Adviser</p>
+            <p class="experience__period text-center">2015 - 2016</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -388,50 +437,68 @@
   <section class="blog">
     <div class="container">
       <h2 class="blog__title">Blog</h2>
-      <p class="blog__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p class="blog__subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </p>
       <div class="blog__cards row">
-        
         <div class="col-md-4">
           <div class="blog__article card">
-            <img src="img/blog/blog-1.png" class="card-img-top" alt="photo">
-              <h6 class="card-subtitle mb-2 text-muted blog__category">Personal Adviser</h6>
-              <a href="#" class="blog__link">
-                <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
-              </a>
-              <p class="card-text blog__text">Lorem ipsum dolor sit amet, consectetur adipielit. 
-              Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
-              consectetur adiic Sunt sed ad posimus magnam maores.</p>
+            <img src="img/blog/blog-1.png" class="card-img-top" alt="photo" />
+            <h6 class="card-subtitle mb-2 text-muted blog__category">
+              Personal Adviser
+            </h6>
+            <a href="#" class="blog__link">
+              <h5 class="card-title blog__article-title">
+                Computer and Using Some Color
+              </h5>
+            </a>
+            <p class="card-text blog__text">
+              Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+              possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
+              consectetur adiic Sunt sed ad posimus magnam maores.
+            </p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="blog__article card">
-            <img src="img/blog/blog-2.png" class="card-img-top" alt="photo">
-              <h6 class="card-subtitle mb-2 text-muted blog__category">Personal Adviser</h6>
-              <a href="#" class="blog__link">
-                <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
-              </a>
-              <p class="card-text blog__text">Lorem ipsum dolor sit amet, consectetur adipielit. 
-              Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
-              consectetur adiic Sunt sed ad posimus magnam maores.</p>
+            <img src="img/blog/blog-2.png" class="card-img-top" alt="photo" />
+            <h6 class="card-subtitle mb-2 text-muted blog__category">
+              Personal Adviser
+            </h6>
+            <a href="#" class="blog__link">
+              <h5 class="card-title blog__article-title">
+                Computer and Using Some Color
+              </h5>
+            </a>
+            <p class="card-text blog__text">
+              Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+              possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
+              consectetur adiic Sunt sed ad posimus magnam maores.
+            </p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="blog__article card">
-            <img src="img/blog/blog-3.png" class="card-img-top" alt="photo">
-              <h6 class="card-subtitle mb-2 text-muted blog__category">Personal Adviser</h6>
-              <a href="#" class="blog__link">
-                <h5 class="card-title blog__article-title">Computer and Using Some Color</h5>
-              </a>
-              <p class="card-text blog__text">Lorem ipsum dolor sit amet, consectetur adipielit. 
-              Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
-              consectetur adiic Sunt sed ad posimus magnam maores.</p>
+            <img src="img/blog/blog-3.png" class="card-img-top" alt="photo" />
+            <h6 class="card-subtitle mb-2 text-muted blog__category">
+              Personal Adviser
+            </h6>
+            <a href="#" class="blog__link">
+              <h5 class="card-title blog__article-title">
+                Computer and Using Some Color
+              </h5>
+            </a>
+            <p class="card-text blog__text">
+              Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad
+              possimus magm maiores.Ipa Lorem ipsum dolor sit amet,
+              consectetur adiic Sunt sed ad posimus magnam maores.
+            </p>
           </div>
         </div>
-
-      </div><!--/.blog__cards .row-->
-    </div><!--/.container-->
+      </div>
+    </div>
   </section>
   <!--/BLOG-->
 
@@ -439,18 +506,20 @@
     <div class="container">
       <div class="contact__inner">
         <h2 class="contact__title">Contact us</h2>
-        <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <p class="contact__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
 
         <form>
           <div class="row contact__inputs">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Name" required>
+              <input type="text" class="form-control" placeholder="Name" required />
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Phone" required>
+              <input type="text" class="form-control" placeholder="Phone" required />
             </div>
             <div class="col">
-              <input type="email" class="form-control" placeholder="Email" required>
+              <input type="email" class="form-control" placeholder="Email" required />
             </div>
           </div>
           <div class="row contact__message">
@@ -458,18 +527,19 @@
               <textarea class="" placeholder="Message" required></textarea>
             </div>
           </div>
-          <button type="submit" class="btn btn-lg contact__btn">Send Message</button>
-          
+          <button type="submit" class="btn btn-lg contact__btn">
+            Send Message
+          </button>
         </form>
-
       </div>
     </div>
   </section>
 
   <!--FOOTER-->
   <footer class="footer">
-    <p class="footer__copyright">Copyright 2020 by psd.in.ua All Rights Reserved.
-</p>
+    <p class="footer__copyright">
+      Copyright 2020 by psd.in.ua All Rights Reserved.
+    </p>
   </footer>
   <!--/FOOTER-->
 
@@ -481,4 +551,5 @@
   <script src="js/jquery.filterizr.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>

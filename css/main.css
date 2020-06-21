@@ -7479,6 +7479,8 @@ body {
           box-sizing: border-box;
 }
 
+/*HEADER
+===================*/
 .header {
   width: 100%;
   min-height: 100px;
@@ -7521,6 +7523,16 @@ body {
           align-items: center;
 }
 
+.nav__menu .dash {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .nav__menu .dash {
+    display: none;
+  }
+}
+
 /*.nav__menu-item {
   position: relative;
 }
@@ -7532,11 +7544,8 @@ body {
   top: 20%;
   right: -50px;
 }*/
-/*@media all and (max-width: 768px) {
-  .navbar.sticky-top.navbar-expand-md.navbar-dark.bg-dark {
-    min-height: 100%;
-  }
-}*/
+/*INTRO
+===================*/
 .intro {
   min-height: 100vh;
   height: auto;
@@ -7726,6 +7735,8 @@ body {
   color: #fff;
 }
 
+/*ABOUT 
+===================*/
 .about {
   width: 100%;
   max-width: 1317px;
@@ -7883,9 +7894,6 @@ body {
 
 .nanoprogress {
   margin-bottom: 44px;
-}
-
-.my-class {
   height: 10px;
   background: #DCDCDE;
   border-radius: 5px;
@@ -7898,6 +7906,8 @@ body {
   background: linear-gradient(45deg, #a21af0 33%, #d310c4 66%, #ff0072);
 }
 
+/*CONTACTS
+===================*/
 .contacts {
   width: 100%;
   min-height: 307px;
@@ -7942,6 +7952,8 @@ body {
   }
 }
 
+/*SERVICES
+===================*/
 .services {
   width: 100%;
   min-height: 1062px;
@@ -8012,6 +8024,8 @@ body {
   line-height: 2;
 }
 
+/*TESTIMONIALS 
+===================*/
 .testimonials {
   width: 100%;
   min-height: 625px;
@@ -8183,6 +8197,8 @@ body {
   font-weight: bold;
 }
 
+/*PORTFOLIO
+===================*/
 .portfolio {
   width: 100%;
   height: auto;
@@ -8276,7 +8292,6 @@ body {
 }
 
 .portfolio__content {
-  width: 70%;
   margin-left: 0;
   padding: 15px !important;
 }
@@ -8305,6 +8320,8 @@ body {
      object-fit: cover;
 }
 
+/*EXPERIENCE
+===================*/
 .experience {
   width: 100%;
   min-height: 1046px;
@@ -8473,6 +8490,8 @@ body {
   }
 }
 
+/*BLOG 
+===================*/
 .blog {
   width: 100%;
   height: auto;
@@ -8545,6 +8564,8 @@ body {
   color: #A21AF0;
 }
 
+/*CONTACT US 
+===================*/
 .contact {
   width: 100%;
   height: auto;
@@ -8671,6 +8692,8 @@ body {
   color: #fff;
 }
 
+/*FOOTER
+===================*/
 .footer {
   width: 100%;
   min-height: 176px;
