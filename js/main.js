@@ -32,4 +32,8 @@ $(".portfolio__filter-controls li").click(function () {
 });
 
 
+//menu
+ let navLink = [...document.querySelectorAll(".nav__menu-item")];
+
+ console.log(navLink);
 

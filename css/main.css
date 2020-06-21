@@ -7484,9 +7484,10 @@ body {
   min-height: 100px;
   font-size: 18px;
   background-color: #15263E;
+  color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header {
     min-height: 56px;
   }
@@ -7497,7 +7498,7 @@ body {
   min-height: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header__inner {
     min-height: 56px;
   }
@@ -7508,24 +7509,29 @@ body {
   min-height: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header__inner nav {
     min-height: 56px;
   }
 }
 
-.nav__menu-item {
+.nav__menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*.nav__menu-item {
   position: relative;
 }
 
 .nav__menu-item::after {
   position: absolute;
   content: "-";
-  color: #fff;
+  color: $white;
   top: 20%;
   right: -50px;
-}
-
+}*/
 /*@media all and (max-width: 768px) {
   .navbar.sticky-top.navbar-expand-md.navbar-dark.bg-dark {
     min-height: 100%;
