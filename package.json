@@ -9,6 +9,6 @@
     "bootstrap": "^4.5.0",
     "filterizr": "^2.2.4",
     "nanobar": "^0.4.2",
-    "progressbar.js": "^1.1.0"
+    "progressbar.js": "^1.1.1"
   }
 }
